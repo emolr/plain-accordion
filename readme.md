@@ -3,6 +3,8 @@
 Plain accordion is a web component accordion that supports classic accordion behavior + flex panes behavior
 similar to codepen coding panels, both vertical and horizontal.
 
+See [Demo](https://emolr.github.io/plain-accordion/).
+
 ## Installation
 
 TODO: Describe the installation process
