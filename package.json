@@ -2,7 +2,7 @@
   "name": "plain-accordion",
   "version": "1.0.0",
   "description": "An accordion web component",
-  "main": "lib/plain-accordion.js",
+  "main": "lib/plain-accordion-bundled.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"

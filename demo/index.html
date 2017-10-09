@@ -9,20 +9,34 @@
         body {
             margin: 0;
         }
+
+        .wrap {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+
+        .showcase {
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
     </style>
 </head>
 <body>
-    <plain-accordion hidden>
-        <plain-section expanded>
-            <div slot="title">Hello</div>
-            <div slot="body">World</div>
-        </plain-section>
-        <plain-section>
-            <div slot="title">YOLO</div>
-            <div slot="body">San Fransisco</div>
-        </plain-section>
-    </plain-accordion>
-
-    <script src="../dist/plain-accordion.js"></script>
+    <div class="wrap">
+        <div class="showcase">
+            <plain-accordion hidden>
+                <plain-section expanded>
+                    <div slot="title">Hello</div>
+                    <div slot="body">World</div>
+                </plain-section>
+                <plain-section>
+                    <div slot="title">YOLO</div>
+                    <div slot="body">San Fransisco</div>
+                </plain-section>
+            </plain-accordion>
+        </div>
+    </div>
+    <script type="module" src="../lib/plain-accordion.js"></script>
 </body>
 </html>
