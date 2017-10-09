@@ -130,6 +130,3 @@ export class PlainAccordion extends HTMLElement {
     }
   }
 }
-
-window.customElements.define('plain-section', PlainAccordionSection);
-window.customElements.define('plain-accordion', PlainAccordion);
